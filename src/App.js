@@ -1,7 +1,6 @@
 import React from "react";
 import Stats from "./components/Stats";
 import MenuEditor from "./components/MenuEditor";
-import Photos from "./components/Photos";
 import Nav from "./components/Nav";
 import Rating from "./components/Rating"
 import Bookings from "./components/Bookings";
@@ -28,11 +27,6 @@ function App() {
       <div
       className="flex mt-4 items-center justify-center">
         <MenuEditor />
-      </div>
-
-      <div
-      className="flex mt-4 items-center justify-center">
-        <Photos />
       </div>
 
       <div
