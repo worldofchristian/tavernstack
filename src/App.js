@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./pages/Home";
+import GetStarted from "./pages/GetStarted";
 
 function App() {
   return (
     <>
-    <Home />
+    <GetStarted />
     </>
   );
 }
