@@ -1,11 +1,8 @@
-import React from 'react'
-import Nav2 from '../components/home/Nav2'
+import React from 'react';
 
 const GetStarted = () => {
   return (
     <>
-    <Nav2 />
-
     <div
     className='flex items-center justify-center mb-12'>
 
