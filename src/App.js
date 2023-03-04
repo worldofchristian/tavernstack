@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GetStarted from "./pages/GetStarted";
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import NavDropdown from './components/NavDropdown';
 
@@ -16,7 +16,7 @@ function App() {
     <Navbar toggle={toggle} />
     <NavDropdown isOpen={!isOpen} toggle={toggle} />
 
-    <GetStarted />
+    <Home />
     </>
   );
 }

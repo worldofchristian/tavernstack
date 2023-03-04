@@ -1,5 +1,5 @@
 import React from 'react'
-import screen from "../../img/screen.png";
+import screen from "../img/screen.png";
 
 const About = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import looseysdropshadow from '../../img/looseysdropshadow.png';
+import looseysdropshadow from '../img/looseysdropshadow.png'
 
 const Example = () => {
   return (
@@ -20,7 +20,7 @@ const Example = () => {
             </div>
 		    <button 
             className="px-8 py-3 text-lg font-semibold rounded bg-indigo-600 text-gray-50">
-            View site</button>
+            View Site</button>
 	    </div>
     </section>
     </>

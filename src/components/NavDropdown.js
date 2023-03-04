@@ -1,27 +1,37 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const NavDropdown = ({isOpen, toggle}) => {
   return (
     <>
     <div
     className={
-      isOpen ? 'grid grid-rows-3 text-center items-center bg-gray-100' : 'hidden' }
+      isOpen ? 'grid grid-rows-3 sticky top-16 z-10 text-center items-center justify-center bg-opacity-70 backdrop-blur-lg shadow-xl' : 'hidden' }
     
     onClick={toggle}>
 
-        <Link
-        className='p-4' to='/Home'>
-        Home</Link>
+          <a
+          className='p-4' href='/'>
+          Home</a>
 
-        <Link
-        className='p-4' to='/GetStarted'>
-        Get Started</Link>
+          <a
+          className='p-4' href='/'>
+          Get Started</a>
 
-        <Link
-        className='p-4' to='/Contact'>
-        Contact</Link>
+          <a
+          className='p-4' href='/'>
+          Contact</a>
+          
+          <div
+          className='flex items-center justify-center my-6'>
 
+            <svg fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            style={{ height: 36, width: 36 }}
+            onClick={toggle}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+
+          </div>
+        
     </div>
     </>
   )
