@@ -14,11 +14,11 @@ const NavDropdown = ({isOpen, toggle}) => {
           Home</a>
 
           <a
-          className='p-4' href='/'>
+          className='p-4' href='/getstarted'>
           Get Started</a>
 
           <a
-          className='p-4' href='/'>
+          className='p-4' href='/contact'>
           Contact</a>
           
           <div

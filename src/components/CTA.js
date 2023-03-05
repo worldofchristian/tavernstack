@@ -11,12 +11,16 @@ const CTA = () => {
             <h1 
             className="text-5xl font-bold leading-none text-center">
             Create your own stack</h1>
-		    <p 
+		        
+            <p 
             className="pt-2 pb-8 text-xl font-regular text-center">
             Free initial build, then add or remove features as you need them</p>
-		    <button 
-            className="px-8 py-3 text-lg font-semibold rounded bg-gray-100 text-gray-900">
-            View Plans</button>
+		        
+            <a href='/getstarted'>
+              <button 
+              className="px-8 py-3 text-lg font-semibold rounded bg-gray-100 text-gray-900">
+              View Plans</button>
+            </a>
 	    
         </div>
     </section>

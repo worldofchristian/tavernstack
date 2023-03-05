@@ -14,9 +14,11 @@ const Hero = () => {
                 <h1 
                 className="mb-5 text-5xl font-bold">
                 A website platform for the nightlife industry</h1>
-                  <button
-                  className="btn btn-primary">
-                  Get Started</button>
+                  <a href='/getstarted'>
+                    <button
+                    className="btn btn-primary">
+                    Get Started</button>
+                  </a>
             </div>
         </div>
     </div>
