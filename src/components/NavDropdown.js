@@ -15,7 +15,7 @@ const NavDropdown = ({isOpen, toggle}) => {
 
           <a
           className='p-4' href='/getstarted'>
-          Get Started</a>
+          Plans</a>
 
           <a
           className='p-4' href='/contact'>

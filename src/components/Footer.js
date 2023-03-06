@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <footer className="bg-gray-100 text-gray-900">
+    <footer className="bg-white-100 text-gray-900">
         <div className="grid justify-center pt-6 lg:justify-between">
 			<div className="flex flex-col self-center text-sm text-center mb-6">
 				<span>©2023 tavernstack</span>

@@ -3,7 +3,7 @@ import React from 'react'
 const FAQ = () => {
   return (
     <>
-    <section className="bg-gray-100 text-gray-800 mt-24 mb-24">
+    <section className="bg-white-100 text-gray-800 mt-24 mb-24">
 	    <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
 		    
             <p 
