@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
     <div 
-    className="bg-gray-100 text-gray-800">
+    className="flex-col bg-white text-gray-800">
 	    <div 
         className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
@@ -42,30 +42,48 @@ const About = () => {
                         Take bookings</dt>
                         <dd 
                         className="mt-2 text-gray-600">
-                        Accept online payments for attractions or private rooms</dd>
+                        Accept inquiries for room rentals and private functions</dd>
+                        </div>
+				</div>
+
+                <div 
+                className="flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-cyan-600">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <div className="ml-3">
+                        <dt 
+                        className="text-lg font-medium">
+                        Take bookings</dt>
+                        <dd 
+                        className="mt-2 text-gray-600">
+                        Accept inquiries for room rentals and private functions</dd>
 				</div>
 
 			</div>
 
-            <div
-            className='flex items-center justify-center'>
+		    </dl>
+	</div>
+
+    <div
+    className='flex items-center justify-center'>
+        <div 
+        className="mockup-phone mt-20 mb-20">
+            <div 
+            className="camera"></div> 
                 <div 
-                className="mockup-phone mt-12 mb-12">
+                className="display bg-white">
                     <div 
-                    className="camera"></div> 
-                    <div 
-                    className="display bg-white">
-                        <div 
-                        className="artboard artboard-demo phone-1 mt-10">
+                    className="artboard artboard-demo phone-1 mt-10">
                         <img
+                        className='mb-10'
                         src={screen}
-                        alt="app screenshot" /></div>
+                        alt="app screenshot" />
                     </div>
                 </div>
-            </div>
-
-		</dl>
-	</div>
+        </div>
+    </div>
+    
 </div>
     </>
   )
